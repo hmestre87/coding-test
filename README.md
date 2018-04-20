@@ -27,7 +27,7 @@ For testing orders 1 to 3 the routes are (sorry for the hack but it was a fast w
 
 - So being this a microservice a tried to keep the dependencies to a minimum. I used Symfony HttpFoundation component for
 handling the requests and responses.
-- I built a transformer from Json to Object for the Order to handle better the values and theirs types.
+- I built a transformer from Json to Object for the Order to handle better the values and their types.
 - I also implemented the Strategy Pattern to allow having multiple Strategies for Discounting, for instance i didn't know
 if the global discount (1st Discount mencioned on the problem) was cumulative or not so i just have to implement a new strategy 
 if i want to pick for example the best or the worst discount instead of accumulating them.
@@ -36,7 +36,7 @@ features :D, sorry i've picked the features)
 - I've created some custom exceptions for better handling the errors and inform them through the responses
 - I'm honestly half-way of doing the code i wished to send you but again sorry got a plane to catch. :(
 
-## If you like i need to do extra code on the test
+## If you would like me to do extra code on the test
 - I'm happy to do some, tests (i know TDD but again no time it would have just been TD)
 - Fix the code with proper style with CS-Fixer and proper annotations everywhere.
 - Finish the whole test :D
