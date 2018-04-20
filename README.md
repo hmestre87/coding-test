@@ -17,6 +17,8 @@ I've left a docker-compose.yml in /problem-1/docker. You'll only need to make so
     - composer install
     - http://localhost or http://localhost:port
 
+The code is under /problem-1/application which i've mapped through the docker-compose.yml
+
 For testing orders 1 to 3 the routes are (sorry for the hack but it was a fast way to test the orders)
 
     - / or /1
